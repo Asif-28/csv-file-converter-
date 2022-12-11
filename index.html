@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSV FILE</title>
+  </head>
+
+  <body style="background-color: lightgray">
+    <h1
+      style="
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 30px;
+        text-align: center;
+        text-decoration: underline;
+      "
+    >
+      UPLOAD AND DOWNLOAD THE FILES
+    </h1>
+
+    <form
+      style="text-align: center"
+      action="/"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input style="font-size: large" type="file" name="file" />
+      <input
+        style="
+          font-size: large;
+          padding: 5px;
+          padding: 10px;
+          border-radius: 10px;
+          border: none;
+        "
+        type="submit"
+        value="upload"
+      />
+    </form>
+    <!-- <form action="/download" method="get">
+      <button>DOWNLOAD</button>
+    </form> -->
+    <!-- <div style="text-align: center; margin-top: 20px; margin-left: 22rem">
+      <a style="text-decoration: none" href="/download">
+        <button
+          style="
+            font-size: large;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+          "
+        >
+          download
+        </button>
+      </a>
+    </div> -->
+  </body>
+</html>

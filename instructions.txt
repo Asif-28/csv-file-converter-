@@ -1,0 +1,14 @@
+steps : 
+1-shown is the video how to use node js to convert very big csv to manipulate csv 
+
+
+required task : just create a simple webpage with two buttons named upload csv and download csv button 
+
+1- when upload csv button is clicked you can pick up  csv from pc storage rather than putting it manually as in video 
+2-then node js in repeater.js should run 
+3- on clicking download csv button manipulated csv should be donwloaded . 
+
+
+use this csv as testing purpose !  https://drive.google.com/file/d/1t6LxtDkl20uVUyaI3YF8eLepYn1VJVjU/view?usp=share_link
+
+Thanks !
