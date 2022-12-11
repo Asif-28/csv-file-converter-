@@ -230,7 +230,7 @@ function calculateComulativeValue(obj) {
   }
 }
 function calc(filename) {
-  console.log(filename);
+  // console.log(filename);
   fs.createReadStream(filename)
     .pipe(parse({ delimiter: ";", columns: true }))
     .on("data", function (row) {

@@ -2,6 +2,7 @@ const express = require("express");
 const upload = require("express-fileUpload");
 const fs = require("fs");
 const { calc } = require("./resolver");
+let alert = require("alert");
 
 const app = express();
 app.use(upload());
@@ -40,6 +41,7 @@ function download() {
       res.download(file);
     } else {
       res.sendFile(__dirname + "/download.html");
+      alert("File not converted");
     }
   });
 }
