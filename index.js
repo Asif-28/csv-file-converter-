@@ -15,6 +15,8 @@ function render() {
   });
 }
 function getFileName() {
+  // code to get the name of the file
+  // filename is passed to the ressolver to get the files
   app.post("/", (req, res) => {
     if (req.files) {
       console.log(req.files);
